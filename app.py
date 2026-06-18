@@ -40,5 +40,5 @@ st.success("Tính toán thành công!")
 st.write(f"📌 Thu nhập tính thuế: **{thu_nhap_tinh_thue:,.0f} VNĐ**")
 st.write(f"📌 Thuế TNCN phải nộp: **{thue:,.0f} VNĐ**")
 st.write(f"📌 Thu nhập sau thuế: **{thu_nhap - thue:,.0f} VNĐ**")
-```
+if st.button("📊 Tính toán"):
 
