@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Tính Thuế TNCN", page_icon="💰", layout="centered")
 
-st.image("banner.jpg", use_container_width=True)
+st.image("LOGOO.jpg", use_container_width=True)
 
 st.title("💰 TÍNH THUẾ THU NHẬP CÁ NHÂN - ĐỀ TÀI 4 TRẦN THỊ THẢO VY")
 
@@ -42,4 +42,3 @@ st.write(f"📌 Thuế TNCN phải nộp: **{thue:,.0f} VNĐ**")
 st.write(f"📌 Thu nhập sau thuế: **{thu_nhap - thue:,.0f} VNĐ**")
 ```
 
-Chỉ cần chuẩn bị thêm file ảnh `banner.jpg` đặt cùng thư mục với `app.py` là giao diện sẽ có ảnh ở đầu như hình m gửi.
