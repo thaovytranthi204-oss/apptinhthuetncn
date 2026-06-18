@@ -21,8 +21,8 @@ value=0
 st.divider()
 
 if st.button("📊 Tính toán"):
-
-```
+    thue = thu_nhap_tinh_thue * 0.05
+    st.write(thue)
 giam_tru_ban_than = 11000000
 giam_tru_phu_thuoc = 4400000 * so_phu_thuoc
 
